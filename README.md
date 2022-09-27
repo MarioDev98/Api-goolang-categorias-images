@@ -10,7 +10,7 @@ go get github.com/joho/godotenv
 go get github.com/gorilla/mux
 
 ```
-* Crear la Base de datos en MYSQL con el nombre TMAK
+* Crear la Base de datos en MYSQL con el nombre que quieran
 * modificar o crear el archivo  **.env** basado al del poryecto **.env**
 * En el archivo  **.env** van las credenciales de conexion
 * Creada la base de datos, exportar el archivo que se presenta de la tabla categorias.sql
@@ -25,14 +25,23 @@ localhost:8000 + el nombre de la ruta en el archivo routes.go
 
  # GET
  * localhost:8000/stories/
+ * localhost:8000/categorias/
  
  # GET ID
   * localhost:8000/stories/1
+  * localhost:8000/categorias/1
  
  # POST
   * localhost:8000/stories/
+  * localhost:8000/categororias/
  
  # PUT
- * localhost:8000/stories/1
-
+ `
+  localhost:8000/stories/1
+ `
+* categoria cambia el estatus a 1 y categorias cambie el status a 0
+ `
+ * localhost:8000/categorias/1 
+ * localhost:8000/categoria/1
+`
 
