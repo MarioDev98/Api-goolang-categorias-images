@@ -41,7 +41,7 @@ localhost:8000 + el nombre de la ruta en el archivo routes.go
  `
 * categoria cambia el estatus a 1 y categorias cambie el status a 0
  `
- * localhost:8000/categorias/1 
- * localhost:8000/categoria/1
+ localhost:8000/categorias/1 
+  localhost:8000/categoria/1
 `
 
